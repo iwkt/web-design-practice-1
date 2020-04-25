@@ -1,0 +1,62 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: YuMincho, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", HiraMinProN-W3, HGS明朝E, "ＭＳ Ｐ明朝", serif;
+}
+
+a {
+	text-decoration: none;
+	color: white
+}
+
+
+header {
+	background-image: url("./pct/top1.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 90px;
+	padding-bottom: 150px;
+	color: white;
+	font-weight: normal;
+	font-family: YuMincho;
+}
+
+header h3 {
+	font-weight: normal;
+}
+
+ul {
+	display: inline-block;
+	font-size: 16px;
+	padding: 10px 0 40px 0;
+}
+
+
+header li {
+	list-style: none;
+	float: left;
+	padding: 0 10px;
+	transition: all 0.6s;
+}
+
+header li:hover {
+	opacity: 0.5;
+	border-bottom: 1px solid white;
+	/*text-decoration: underline;*/
+}
+
+.container {
+	width: 1130px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header p {
+	margin-top: 0px;
+	margin: -20px;
+	font-size: 24px;
+}
+
