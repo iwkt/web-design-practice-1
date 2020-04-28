@@ -102,13 +102,13 @@ li {
   margin-bottom: 30px;
 }
 
+/* main */
 .info_container {
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-/* main */
 .welcome_text {
   font-size: 18px;
   font-weight: normal;
@@ -126,6 +126,8 @@ li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-left: 80;
+  margin-right: 80px;
 }
 
 .info_contents h1 {
@@ -133,8 +135,7 @@ li {
 }
 
 .info_iwaki {
-  width: calc(50% - 40px);
-  max-width: 500px;
+  width: calc(50% - 60px);
   text-align: left;
   padding-left: 100px;
 }
@@ -144,10 +145,8 @@ li {
 }
 
 .what_gakuso {
-  width: calc(50% - 40px);
-  max-width: 500px;
+  width: calc(50% - 60px);
   text-align: left;
-  padding-right: 100px;
 }
 
 .what_gakuso span {
