@@ -107,14 +107,16 @@ li {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  background: rgba(0, 0, 0, 0.03);
 }
 
 .welcome_text {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
   text-align: center;
   color: #000;
-  margin: 30px 0 60px 0;
+  margin: 0px 0 60px 0;
+  padding-top: 40px;
 }
 
 .info_contents {
@@ -126,30 +128,48 @@ li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: 80;
-  margin-right: 80px;
 }
 
-.info_contents h1 {
-  font-size: 24px;
+.icon_makimono {
+  float: left;
+  -webkit-transform: translate(-100%, 25%);
+          transform: translate(-100%, 25%);
 }
 
 .info_iwaki {
-  width: calc(50% - 60px);
+  width: calc(30% - 50px);
   text-align: left;
-  padding-left: 100px;
+  margin-left: auto;
+  margin-right: 20px;
 }
 
 .info_iwaki span {
   font-weight: bold;
 }
 
+.info_iwaki h1 {
+  font-size: 20px;
+  padding-left: 0;
+}
+
 .what_gakuso {
-  width: calc(50% - 60px);
+  width: calc(30% - 50px);
   text-align: left;
+  margin-left: 20px;
+  margin-right: auto;
 }
 
 .what_gakuso span {
   font-weight: bold;
+}
+
+.what_gakuso h1 {
+  font-size: 20px;
+  padding-left: 0;
+}
+
+.gaku img {
+  width: 100%;
+  margin: 20px 20px 20px 0;
 }
 /*# sourceMappingURL=stylesheet.css.map */
